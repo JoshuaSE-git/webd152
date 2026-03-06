@@ -40,13 +40,12 @@ header a:hover {
 }
 nav {
   float: left; /* fl */
-  /* font-size: 120%; */
+  font-size: 120%;
   font-weight: bold; /* fwb */
-  padding: 1.5em 0.5em;
+  padding: 1.5em;
   width: 160px; /* w160 */
 }
 nav ul {
-  font-size: 1.2em; /* fz1.2em */
   list-style-type: none; /* listn */
   margin: 0; /* m0 */
   padding-left: 0; /* pl0 */
@@ -67,7 +66,7 @@ main {
   background-color: #fff; /* bgc#fff */
   margin-left: 190px; /* ml190 */
   padding: 1px 20px 20px 30px;
-  display: block;
+
   overflow: auto; /* ova */
 }
 section {
@@ -118,21 +117,21 @@ address {
 #homehero {
   background-image: url(images/coast2.jpg); /*bgi */
   background-repeat: no-repeat; /* bgr */
-  background-size: 100% 100%; /* bgz100%100% */
-  height: 300px; /* h300 */
+  background-size: cover; /* bgz100%100% */
+  height: 18.75rem; /* h300 */
   margin-left: 190px; /* ml190 */
 }
 #yurthero {
   background-image: url(images/yurt.jpg); /*bgi */
   background-repeat: no-repeat; /* bgr */
-  background-size: 100% 100%; /* bgz100%100% */
-  height: 300px; /* h300 */
+  background-size: cover; /* bgz100%100% */
+  height: 18.75rem; /* h300 */
   margin-left: 190px; /* ml190 */
 }
 #trailhero {
   background-image: url(images/trail.jpg); /*bgi */
   background-repeat: no-repeat; /* bgr */
-  background-size: 100% 100%; /* bgz100%100% */
-  height: 300px; /* h300 */
+  background-size: cover; /* bgz100%100% */
+  height: 18.75rem; /* h300 */
   margin-left: 190px; /* ml190 */
 }
