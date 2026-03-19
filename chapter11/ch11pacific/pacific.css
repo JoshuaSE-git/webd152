@@ -438,7 +438,7 @@ input[type="submit"]:focus {
 }
 
 @media (min-width: 900px) {
-  .galelry {
+  .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
