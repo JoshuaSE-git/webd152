@@ -50,16 +50,8 @@ footer {
 	padding: 2.5%;
 }
 #demo {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  -ms-flex-direction: row;
-  -o-flex-direction: row;
-  flex-direction: row;
+   display: flex;
+   flex-direction: row;
 }
 nav {
   flex: 1;
@@ -72,15 +64,19 @@ aside {
 }
 
 @media only screen and (max-width: 1024px) {
-  body { margin: 0; padding: 0; } 
-  #wrapper { width: auto; margin: 0; }
-  h1 { font-size: 200%; }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  #wrapper {
+    width: auto;
+    margin: 0;
+  }
+  h1 {
+    font-size: 200%;
+  }
   #demo {
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    -o-flex-direction: row;
-    flex-direction: row;
+    flex-direction: column;
   }
   nav ul {
     display: flex;
@@ -91,7 +87,6 @@ aside {
     padding: 0 0.5em;
     font-size: 1.2em;
   }
-
 }
 @media only screen and (max-width: 768px) {
   nav {
@@ -101,4 +96,6 @@ aside {
     flex-wrap: wrap;
   }
 }
-header, main, aside, nav, footer, figure, figcaption { display: block; }
+header, main, aside, nav, footer, figure, figcaption {
+  display: block;
+}
