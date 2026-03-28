@@ -139,6 +139,7 @@ footer {
   font-weight: bold;
 }
 
+#abouthero,
 #homehero,
 #yurthero,
 #trailhero,
@@ -162,6 +163,10 @@ footer {
 
 #reservations-hero {
   background-image: url(images/reservations.jpg)
+}
+
+#abouthero {
+  background-image: url(images/sunset.jpg)
 }
 
 .card-row {
