@@ -263,20 +263,6 @@ footer {
   margin-bottom: 3rem;
 }
 
-.about-section:last-of-type h2 {
-  text-align: right;
-}
-
-.about-content-reverse {
-  flex-direction: row-reverse;
-}
-
-@media (max-width: 900px) {
-  .about-content-reverse {
-    flex-direction: column;
-  }
-}
-
 @media (max-width: 900px) {
   .about-content {
     flex-direction: column;
