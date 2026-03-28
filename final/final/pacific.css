@@ -166,7 +166,67 @@ footer {
 }
 
 #abouthero {
-  background-image: url(images/ourstory-hero.jpg)
+  background-image: url(images/ourstory-hero.jpg);
+  background-position: center;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.about-card h2 {
+  color: #39c;
+  text-shadow: 1px 1px 1px #ccc;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-card p {
+  line-height: 1.6;
+}
+
+.about-card + .about-card {
+  margin-top: 1.5rem;
+}
+
+.about-image-card {
+  margin-top: 1.5rem;
+}
+
+.about-image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.about-image-card img:hover {
+  transform: scale(1.02);
+}
+
+.about-image-card figcaption {
+  text-align: center;
+  padding: 0.75rem;
+  background: rgba(0, 51, 102, 0.1);
+  border-radius: 0 0 0.5em 0.5em;
+  color: #003;
+  font-weight: bold;
+}
+
+.about-image-card figure {
+  margin: 0;
 }
 
 .about-content {
