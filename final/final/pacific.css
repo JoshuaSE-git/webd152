@@ -279,6 +279,16 @@ footer {
   }
 }
 
+.about-section:last-child .about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.about-section:last-child .about-text h2 {
+  align-self: flex-start;
+}
+
 .about-image-card img {
   width: 100%;
   height: auto;
